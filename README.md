@@ -18,21 +18,22 @@ This project is a simple but functional user authentication system built with **
 
 ## 🗂️ Project Structure
 
-project-root/
-├── index.php # Main UI for login/signup
+
+```
+Home-Page/
+├── index.php
 ├── includes/
-│ ├── config_session.inc.php # Session starter (safe session_start)
-│ ├── dbh.inc.php # DB connection (PDO)
-│
-│ ├── login.inc.php # Login entry point (POST handler)
-│ ├── login_contr.inc.php # Login validation logic
-│ ├── login_model.inc.php # DB interaction for login
-│ ├── login_view.inc.php # Output login errors
-│
-│ ├── signup.inc.php # Signup entry point (POST handler)
-│ ├── signup_contr.inc.php # Signup validation logic
-│ ├── signup_model.inc.php # DB interaction for signup
-│ ├── signup_view.inc.php # Output signup errors
+│   ├── config_session.inc.php     # Starts session safely
+│   ├── dbh.inc.php                # Database connection via PDO
+│   ├── login.inc.php              # Handles POST login requests
+│   ├── login_contr.inc.php        # Validates login inputs
+│   ├── login_model.inc.php        # Queries user data
+│   ├── login_view.inc.php         # Displays login errors
+│   ├── signup.inc.php             # Handles POST signup requests
+│   ├── signup_contr.inc.php       # Validates signup inputs
+│   ├── signup_model.inc.php       # Inserts new users
+│   ├── signup_view.inc.php        # Displays signup errors
+```
 
 ---
 
