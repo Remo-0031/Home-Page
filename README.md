@@ -45,3 +45,6 @@ Home-Page/
 - Apache (via XAMPP or WAMP recommended)
 
 ---
+## 🔍 Preview
+
+![Login System Screenshot](Images/ScreenShot.jpg)
